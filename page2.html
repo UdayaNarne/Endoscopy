@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <header class="p-3">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          </div>
+        </div>
+        <div class="top">
+            <img class="left-logo" style="align-items:left" src="logo2.png"/>
+            <p>IMAGE SCREEN</p>
+            <img class="right-logo" style="align-items:right" src="logo1.png"/>
+        </div>
+      </header>
+      <div style="background-color:black">
+        <div class="navigate1">
+            <div style="
+                width: 70px;
+                height: 70px;
+                /* padding-top:20px; */
+                border-radius: 50%;
+                border: 4px solid #00BFFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+            <svg id="video" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#00BFFF" class="bi bi-camera-video" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/>
+              </svg>
+          </div>
+          <div class="icons">
+            <div class="image-header">
+                <p style="color:#00BFFF">Image</p>
+                <div class="image-container">
+                    <div class="image-circle">
+                    </div>
+                </div>
+            </div>
+            <div class="analyze">
+                <div class="analyze-container2" style="padding-left:20px;">
+                    <div class="circle"></div>
+                    <p style="margin-bottom:0px; color:#00bfff">Checking for Image</p>
+                </div>
+                <div class="analyze-container">
+                    <p style="color:#00BFFF">Predictions</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <script>
+        document.getElementById("video").addEventListener("click",function(){
+            window.location.href = "page3.html";
+        })
+      </script>
+</body>
+</html>
